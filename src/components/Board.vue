@@ -1,18 +1,18 @@
 <template>
   <div class="grid  grid-cols-4 grid-rows-5">
-    <button class="btn-ac" value="ac">
+    <button class="btn-ac" value="ac" @click="handleAllClear">
       AC
     </button>
 
-    <button class="btn-text" value="del">
+    <button class="btn-text" value="del" @click="handleDelete">
       DEL
     </button>
 
-    <button class="btn-grey-2xl" value="/">
+    <button class="btn-grey-2xl" value="/" @click="handleOperators">
       /
     </button>
 
-    <button class="btn-grey-2xl" value="*">
+    <button class="btn-grey-2xl" value="*" @click="handleOperators">
       *
     </button>
 
@@ -22,7 +22,7 @@
 
     <button class="btn-white" value="9" @click="handleNumbers">9</button>
 
-    <button class="btn-plus" value="+">
+    <button class="btn-plus" value="+" @click="handleOperators">
       +
     </button>
 
@@ -38,17 +38,17 @@
 
     <button class="btn-white" value="3" @click="handleNumbers">3</button>
 
-    <button class="btn-grey-2xl" value="-">
+    <button class="btn-grey-2xl" value="-" @click="handleOperators">
       -
     </button>
 
     <button class="btn-zero" value="0" @click="handleNumbers">0</button>
 
-    <button class="btn-grey-2xl" value=".">
+    <button class="btn-grey-2xl" value="." @click="handleDecimal">
       .
     </button>
 
-    <button class="btn-equal" value="0">
+    <button class="btn-equal" value="0" @click="handleCalculate">
       =
     </button>
   </div>
@@ -56,7 +56,14 @@
 
 <script>
 export default {
-  props: ["handleNumbers"],
+  props: [
+    "handleNumbers",
+    "handleAllClear",
+    "handleDelete",
+    "handleOperators",
+    "handleCalculate",
+    "handleDecimal",
+  ],
 };
 </script>
 
