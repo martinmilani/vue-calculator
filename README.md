@@ -3,9 +3,9 @@
 
 
 
-![Image of Vue Calculator](img.png)
+![Vue Calculator](Calculator.png)
 
-[Demo](http://github.com)
+[Demo](https://vue-calculator-kappa.vercel.app/)
 
 
 
