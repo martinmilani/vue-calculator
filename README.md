@@ -1,6 +1,19 @@
 # calculator-app
 
-(You can register with a fake mail)
+
+
+
+![Image of Vue Calculator](img.png)
+
+[Demo](http://github.com)
+
+## Features
+* Login page 
+* Vue Router
+* Operation Hitory 
+* Firebase
+
+
 
 ## Project setup
 
