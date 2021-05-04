@@ -1,5 +1,7 @@
 # calculator-app
 
+(You can register with a fake mail)
+
 ## Project setup
 
 ```
