@@ -7,12 +7,6 @@
 
 [Demo](http://github.com)
 
-## Features
-* Login page 
-* Vue Router
-* Operation Hitory 
-* Firebase
-
 
 
 ## Project setup
